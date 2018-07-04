@@ -110,6 +110,7 @@ class ListController < ApplicationController
         end
       end
 
+      puts "pull from beta"
       respond_with_list(list)
     end
 
