@@ -109,7 +109,7 @@ class ListController < ApplicationController
           @title << " - #{SiteSetting.title}"
         end
       end
-
+      puts "git pull test"
       respond_with_list(list)
     end
 
